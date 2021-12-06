@@ -65,7 +65,7 @@ function compare(computerSelection, userSelection){
     }
     console.log("The computer chose " + computerSelection)
     console.log("You chose " + userSelection)
-    compare(userSelection , computerSelection)
+    compare(computerSelection, userSelection)
     
 }
 //assign each win or loss a value of 1
