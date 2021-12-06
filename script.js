@@ -17,6 +17,8 @@ const randomNumber = Math.floor(Math.random() * 100);
     console.log(userSelection)
 
     function compare(computerSelection, userSelection){
+
+        //tie
         if (computerSelection === userSelection){
             alert ("Tie! Go again");
         }
